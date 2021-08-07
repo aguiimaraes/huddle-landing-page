@@ -10,20 +10,24 @@
     box-sizing: border-box;
 }
 html{
-    margin: 0;
-    padding: 0;
+    width: 1366px;
+    height: 768px;
 }
 h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
-body, p{
+body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     background-color: var(--violet);
     background-image: url('../images/bg-desktop.svg');
-    background-size: 85%;
+    background-size: 100%;
     background-repeat: no-repeat;
+}
+p, button{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 .logo{
     width: 180px;
@@ -51,7 +55,7 @@ body, p{
 .container .container-text button{
     text-decoration: none;
     border-radius: 25px;
-    padding: 15px 50px;
+    padding: 12px 50px;
     margin: 10px 0 0;
     color: var(--violet);
     border: none;
@@ -82,5 +86,11 @@ body, p{
     background-color: var(--soft-magenta);
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 11px; text-align: center; 
+    color: white;
+}
+.attribution a {
+    color: white; 
+    text-decoration: none;
+}

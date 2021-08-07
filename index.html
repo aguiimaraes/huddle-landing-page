@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/feather-icons"></script>
 </head>
+
 <body>
-
-  Build The Community Your Fans Will Love
-
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
-  Register
-
+  <img class="logo" src="images/logo.svg" alt="Logo">
+  <div class="container">
+    <div class="container-mockups">
+      <img src="images/illustration-mockups.svg" alt="Mockups">
+    </div>
+    <div class="container-text">
+    <h1>Build The Community Your Fans Will Love</h1>
+    <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+    <button>Register</button>
+    </div>
+  </div>
+  <div class="social-media">
+    <i data-feather="facebook"></i>
+    <i data-feather="twitter"></i>
+    <i data-feather="instagram"></i>
+  </div>
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Arthur Guimarães</a>.
     </p>
   </footer>
+  <script>
+    feather.replace()
+  </script>
 </body>
 </html>

@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/aguiimaraes/huddle-landing-page](https://your-solution-url.com)
-- Live Site URL: [https://aguiimaraes.github.io/huddle-landing-page/](https://your-live-site-url.com)
+- Solution URL: [Huddle Landing Page](https://github.com/aguiimaraes/huddle-landing-page)
+- Live Site URL: [Live Site Huddle Landing Page](https://aguiimaraes.github.io/huddle-landing-page/)
 
 ## My process
 

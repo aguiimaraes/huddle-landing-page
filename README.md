@@ -40,5 +40,5 @@ Users should be able to:
 
 ## Author
 
-- GitHub- [Arthur Guimarães](https://github.com/aguiimaraes
+- GitHub- [Arthur Guimarães](https://github.com/aguiimaraes)
 - Frontend Mentor - [@aguiimaraes](https://www.frontendmentor.io/profile/aguiimaraes)
